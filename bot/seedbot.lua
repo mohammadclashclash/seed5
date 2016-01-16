@@ -221,48 +221,42 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {150575718,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
+    about_text = [[Tele KAREN OPEN 
 An advance Administration bot based on yagop/telegram-bot 
 
-https://github.com/SEEDTEAM/TeleSeed
+
 
 Admins
-@iwals [Founder]
+
 @imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
 
 Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
+alpha 
+nima najafian
+armin shah jocker
 
-Our channels
-@teleseedch [English]
-@iranseed [persian]
 ]],
     help_text_realm = [[
 Realm Commands:
 
 !creategroup [Name]
 Create a group
-
+ساخت گروه 
 !createrealm [Name]
 Create a realm
-
+ساخت گروه ادمین ها
 !setname [Name]
 Set realm name
-
+تغییر نام
 !setabout [GroupID] [Text]
 Set a group's about text
 
 !setrules [GroupID] [Text]
 Set a group's rules
-
+در مورد قوانین✊
 !lock [GroupID] [setting]
 Lock a group's setting
 
@@ -289,13 +283,13 @@ Promote an admin by id OR username *Sudo only
 
 !removeadmin [id|username]
 Demote an admin by id OR username *Sudo only
-
+دیلیت کردن ادمین
 !list groups
 Get a list of all groups
-
+لیست گپ ها
 !list realms
 Get a list of all realms
-
+لیست ریلم
 !log
 Grt a logfile of current group or realm
 
@@ -324,51 +318,51 @@ Commands list :
 
 !kick [username|id]
 You can also do it by reply
-
+حذف کردن با ایدی و ریپلی 
 !ban [ username|id]
 You can also do it by reply
-
+بن کردن توسط ایدی و ریپلی
 !unban [id]
 You can also do it by reply
-
+خارج کردن از بن 
 !who
 Members list
 
 !modlist
 Moderators list
-
+لیست مدیران
 !promote [username]
 Promote someone
-
+مدیر کردن شخص توسط نام کاربری
 !demote [username]
 Demote someone
-
+خارج کردن از مدیریت
 !kickme
 Will kick user
-
+خارج از گروه 
 !about
 Group description
-
+در مورد گروه
 !setphoto
 Set and locks group photo
-
+تعویض عکس
 !setname [name]
 Set group name
-
+تغییر نام
 !rules
 Group rules
-
+قوانین
 !id
 return group id or user id
-
+ایدی
 !help
 
 !lock [member|name|bots|leave]	
 Locks [member|name|bots|leaveing] 
-
+قفل اعضا نام و ورود بات و لیو 
 !unlock [member|name|bots|leave]
 Unlocks [member|name|bots|leaving]
-
+باز کردن قفل اعضا ونام و لیو
 !set rules <text>
 Set <text> as rules
 
@@ -377,22 +371,22 @@ Set <text> as about
 
 !settings
 Returns group settings
-
+سیتینگ
 !newlink
 create/revoke your group link
-
+لینک جدیپ
 !link
 returns group link
-
+گرفتن لینک
 !owner
 returns group owner id
-
+مدیریت برتر از مدیران گپ
 !setowner [id]
 Will set id as owner
-
+تنظیم مدیریت برتر
 !setflood [value]
 Set [value] as flood sensitivity
-
+تنظیم تعداد اسپم
 !stats
 Simple message statistics
 
@@ -404,17 +398,17 @@ Returns text of [value]
 
 !clean [modlist|rules|about]
 Will clear [modlist|rules|about] and set it to nil
-
+پاک کردن مدیران و اعضت و قوانین
 !res [username]
 returns user id
 "!res @username"
-
+اطلاعات کاربری شخص همراه با یوزر
 !log
 will return group logs
 
 !banlist
 will return group ban list
-
+لیست بن شدگان گپ
 **U can use both "/" and "!" 
 
 
