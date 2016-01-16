@@ -374,7 +374,7 @@ Returns group settings
 سیتینگ
 !newlink
 create/revoke your group link
-لینک جدیپ
+لینک جدید
 !link
 returns group link
 گرفتن لینک
@@ -398,7 +398,7 @@ Returns text of [value]
 
 !clean [modlist|rules|about]
 Will clear [modlist|rules|about] and set it to nil
-پاک کردن مدیران و اعضت و قوانین
+پاک کردن مدیران و اعضا و قوانین
 !res [username]
 returns user id
 "!res @username"
